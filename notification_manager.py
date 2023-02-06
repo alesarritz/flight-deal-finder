@@ -16,7 +16,7 @@ class NotificationManager:
         self.message = []
 
     def send_sms(self):
-        self.client.messages.create(body=f"\n{self.message}", from_='+18154568468', to='+393889710599')
+        self.client.messages.create(body=f"\n{self.message}", from_='xxxxxxxxx', to='xxxxxxxxx')
 
     def send_email(self, email_to):
         try:
